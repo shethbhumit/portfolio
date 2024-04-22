@@ -200,17 +200,17 @@ In this project we analyze the sales performance of six restaurants in Lombardy 
 ---
 ## Data Visualization
 
-### Air Quality Evolution in the Milan Agglomeration: Data Analysis and Interactive Visualization
+### Airbnb Review Analytics, Unlocking Airbnb Success Stories
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau)
-[![View on Tableau](https://img.shields.io/badge/Tableau-View_on_Tableau-orange?logo=Tableau)](https://public.tableau.com/app/profile/giorgio.carbone3907/viz/IndicediQualitdellAriaIQAnellagglomeratodiMilanoanalisidellandamentostagionaleeannualeCarboneCavallaroMarconziniScuri/Dashboard_HOME)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://github.com/giocoal/Air_Pollution_Data_Visualization_Tableau/blob/main/Report/CarboneCavallaroMarconziniScuri.pdf)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/airbnb_reviews_analytics)
+[![View on Tableau](https://img.shields.io/badge/Tableau-View_on_Tableau-orange?logo=Tableau)](https://public.tableau.com/app/profile/bhumit.sheth/viz/DashboardAmesterdamAirbnb/Dashboard1)
 
-_Key Skills: Tableau, Interactive Visualization, Air Quality Data Analysis_
+_Key Skills: SQL, Tableau, Interactive Visualization, Airbnb Data Analysis
 
-<div style="text-align: justify">Has <b>air quality</b> improved over the past 15 years in and around <b>Milan</b>? Is the concentration of pollutants higher in winter or summer? and why? What are the main pollutants, and what meteorological and anthropogenic factors influence the seasonal pattern of their concentrations?
+<div style="text-align: justify">As a passionate enthusiast and key business stakeholder, our primary goal was to understand how Airbnb hosts were performing in Amsterdam. We sought answers to the question: "How much are the top Airbnb owners making in Amsterdam?" This insight provides a glimpse into the lucrative world of short-term rentals.
+Catering to a Niche Market.
 <br>
-We tried to answer these, and other, questions by analyzing data from ARPA Lombardy. The results of our analysis were then displayed in an <b>interactive infographic</b> created using the <b>Tableau</b> platform.
+With a long-standing desire to establish an Airbnb Cleaning Business, we embarked on a quest to identify potential customers. By dissecting the data, we aimed to answer the question: "Who comprises the potential customer list for our Airbnb Cleaning Business?" This critical knowledge forms the foundation for our future entrepreneurial endeavors.
 </div>
 <br>
 <center><img src="images/ARPAVIZ.gif"/></center>

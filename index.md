@@ -205,7 +205,7 @@ In this project we analyze the sales performance of six restaurants in Lombardy 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/airbnb_reviews_analytics)
 [![View on Tableau](https://img.shields.io/badge/Tableau-View_on_Tableau-orange?logo=Tableau)](https://public.tableau.com/app/profile/bhumit.sheth/viz/DashboardAmesterdamAirbnb/Dashboard1)
 
-_Key Skills: SQL, Tableau, Interactive Visualization, Airbnb Data Analysis
+_Key Skills: SQL, Tableau, Interactive Visualization, Airbnb Data Analysis_
 
 <div style="text-align: justify">As a passionate enthusiast and key business stakeholder, our primary goal was to understand how Airbnb hosts were performing in Amsterdam. We sought answers to the question: "How much are the top Airbnb owners making in Amsterdam?" This insight provides a glimpse into the lucrative world of short-term rentals.
 Catering to a Niche Market.

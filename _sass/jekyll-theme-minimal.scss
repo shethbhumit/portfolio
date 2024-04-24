@@ -199,46 +199,48 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
+
   div.wrapper {
     width: auto;
     margin: 0;
-    padding: 5px;  // Added padding for better spacing
+    padding: 10px; /* Reduced padding for more content space */
   }
 
   header, section, footer {
     float: none;
     position: static;
-    width: auto;
-    padding: 10px 0;  // Ensure consistent padding
+    width: auto; /* Ensures these elements don't overflow the screen width */
   }
 
   header {
-    padding-right: 0;  // Adjusted padding for better space utilization
+    padding-right: 0; /* Removed excess padding */
   }
 
   section {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
-    padding: 20px 10px;  // Added horizontal padding
+    padding: 20px 10px; /* Added horizontal padding for alignment */
     margin: 0 0 20px;
   }
 
   header a small {
-    display: inline;
+    display: inline; /* Keeps the layout inline for smaller screens */
   }
 
   header ul {
-    position: static;  // Changed to static for better alignment
-    padding-top: 10px;  // Added padding for separation
+    position: absolute;
+    right: 20px; /* Adjusted to avoid being cut off the screen */
+    top: 52px;
   }
 }
+
 @media print, screen and (max-width: 720px) {
   body {
-    word-wrap: break-word;  // Helps prevent text overflow
+    word-wrap: break-word; /* Ensures text fits within the container */
   }
 
   header {
-    padding: 0;
+    padding: 0 10px; /* Added horizontal padding for consistency */
   }
 
   header ul, header p.view {
@@ -249,24 +251,34 @@ footer {
     word-wrap: normal;
   }
 }
+
 @media print, screen and (max-width: 480px) {
   body {
-    padding: 10px;  // Reduced padding for more screen space
+    padding: 10px; /* Further reduce padding for very small screens */
   }
 
   .downloads {
-    width: 100%;  // Use full width for buttons
+    width: 100%; /* Adjust to full width to prevent cut-off */
   }
 
-  .downloads li {
-    width: 33.33%;  // Ensure equal width for all items
-    padding: 5px 0;  // Added padding for touch targets
+  .downloads li, .downloads li + li + li {
+    width: 33%; /* Ensure button widths are equal and fit the screen */
+    padding: 5px 0; /* Adjusted padding for better tap targets */
+  }
+
+  header {
+    padding: 0; /* Remove padding to maximize space */
   }
 }
+
 @media print {
   body {
     padding: 0.4in;
     font-size: 12pt;
     color: #444;
+  }
+  /* Ensure that print styles don't affect screen display */
+  header, section, footer {
+    display: none;
   }
 }

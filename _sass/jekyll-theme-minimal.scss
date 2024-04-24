@@ -3,7 +3,7 @@
 
 body {
   background-color: #fff;
-  padding:50px;
+  padding:20px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -56,7 +56,8 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width: auto;
+  max-width: 860px;
   margin:0 auto;
 }
 
@@ -108,6 +109,7 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  padding: 10px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -197,76 +199,74 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
-
   div.wrapper {
-    width:auto;
-    margin:0;
+    width: auto;
+    margin: 0;
+    padding: 5px;  // Added padding for better spacing
   }
 
   header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
+    float: none;
+    position: static;
+    width: auto;
+    padding: 10px 0;  // Ensure consistent padding
   }
 
   header {
-    padding-right:320px;
+    padding-right: 0;  // Adjusted padding for better space utilization
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 10px;  // Added horizontal padding
+    margin: 0 0 20px;
   }
 
   header a small {
-    display:inline;
+    display: inline;
   }
 
   header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
+    position: static;  // Changed to static for better alignment
+    padding-top: 10px;  // Added padding for separation
   }
 }
-
 @media print, screen and (max-width: 720px) {
   body {
-    word-wrap:break-word;
+    word-wrap: break-word;  // Helps prevent text overflow
   }
 
   header {
-    padding:0;
+    padding: 0;
   }
 
   header ul, header p.view {
-    position:static;
+    position: static;
   }
 
   pre, code {
-    word-wrap:normal;
+    word-wrap: normal;
   }
 }
-
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding: 10px;  // Reduced padding for more screen space
   }
 
   .downloads {
-    width:99%;
+    width: 100%;  // Use full width for buttons
   }
 
-  .downloads li, .downloads li + li + li {
-    width:33%;
+  .downloads li {
+    width: 33.33%;  // Ensure equal width for all items
+    padding: 5px 0;  // Added padding for touch targets
   }
 }
-
 @media print {
   body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
+    padding: 0.4in;
+    font-size: 12pt;
+    color: #444;
   }
 }

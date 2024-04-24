@@ -88,8 +88,8 @@ _Key Skills: Classification, Fraud Detection, Random Forest, OneHotEncoder, getd
 
 <div style="text-align: justify">
 A large number of problems in data mining are related to fraud detection. Fraud is a common problem in auto insurance claims, health insurance claims, credit card transactions, financial transaction and so on. The data in this particular case comes from an actual auto insurance company. Each record represents an insurance claim. The last column in the table tells you whether the claim was fraudulent or not.<br>
-<b>Learnings :</b> <br>
-<li><b>Dealing with categorical data :</b> OneHotEncoder, getdummies, labelencoder </li>
+<b>Learnings :</b><br>
+<li><b>Dealing with categorical data:</b> OneHotEncoder, getdummies, labelencoder </li>
 <li>HyperParameter Tuning using GridSearch and RandomSearch Methods</li>
 <li>Building a Random Forest Classifier</li>
 <li><b>Model Evaluation :</b> More focus on False Negatives</li>

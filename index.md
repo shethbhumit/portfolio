@@ -8,7 +8,7 @@
 [![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20PDF-red?logo=adobe-acrobat-reader)](https://drive.google.com/file/d/1dC38g5Nu6LL-6oYzVxkShD5fyHusjAlL/view?usp=sharing)
 
 
-_Key Skills: Python (Random Forest, Gradient Boosting, Neaural Nets, Streamlit), Supply Chain, Data Analysis_
+_Key Skills: Python (Random Forest, Gradient Boosting, Neural Nets, Streamlit), Supply Chain, Data Analysis_
 
 <div style="text-align: justify">
 I am led a comprehensive <b>end-to-end project</b> along with 4 graduates, culminating in a Streamlit app to forecast ETA/ETD for ocean shipments, enhancing supply chain visibility.<br>

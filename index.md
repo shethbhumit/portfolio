@@ -201,6 +201,16 @@ In our presentation for <b>Ball Corporation</b>, my team and I, delivered a deta
 We also highlighted workforce optimization strategies, like adopting a lifetime employment model and gamifying KPIs, to increase engagement and performance. Our phased implementation plan is designed to stabilize work expectations, enhance safety, and foster a culture of continuous learning, ultimately decreasing turnover and boosting operational efficiency. 
 </div>
 <br>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P230DC6WQ3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P230DC6WQ3');
+</script>
 <center><img src="images/iowa.png"/></center>
 <br>
 

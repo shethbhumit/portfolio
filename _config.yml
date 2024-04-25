@@ -26,14 +26,4 @@ description:
   </p>
   
 theme: jekyll-theme-minimal
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P230DC6WQ3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-P230DC6WQ3');
-</script>
-
+google-analytics: G-P230DC6WQ3

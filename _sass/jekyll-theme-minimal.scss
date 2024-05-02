@@ -110,6 +110,7 @@ header {
   top: 0; /* Ensure it starts from the top */
   bottom: 0; /* Stretch to the bottom */
   overflow-y: auto; /* Enable vertical scrolling */
+  padding-right: 10px;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -178,6 +179,7 @@ section {
   float: right;
   height: 100vh; /* Set the height to the full view height */
   overflow-y: auto; /* Enable vertical scrolling */
+  padding: 0 10px;
   padding-bottom: 50px;
 }
 
@@ -196,6 +198,7 @@ footer {
   width: 270px;
   position: fixed;
   bottom: 0;
+  padding-right: 10px;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -212,6 +215,7 @@ footer {
     float: none;
     height: auto; /* Reset height for mobile */
     overflow-y: visible; /* Disable scrolling for mobile */
+    padding: 0;
   }
 
   header {

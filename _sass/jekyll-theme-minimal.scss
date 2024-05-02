@@ -105,13 +105,10 @@ img {
 }
 
 header {
-  width: 270px;
-  position: fixed;
-  top: 0; /* Ensure it starts from the top */
-  bottom: 0; /* Stretch to the bottom */
-  overflow-y: auto; /* Enable vertical scrolling */
-  padding-right: 10px;
-  -webkit-font-smoothing: subpixel-antialiased;
+  width:270px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 ul.downloads {
@@ -175,12 +172,9 @@ strong {
 }
 
 section {
-  width: 500px;
-  float: right;
-  height: 100vh; /* Set the height to the full view height */
-  overflow-y: auto; /* Enable vertical scrolling */
-  padding: 0 10px;
-  padding-bottom: 50px;
+  width:500px;
+  float:right;
+  padding-bottom:50px;
 }
 
 small {
@@ -195,11 +189,11 @@ hr {
 }
 
 footer {
-  width: 270px;
-  position: fixed;
-  bottom: 0;
-  padding-right: 10px;
-  -webkit-font-smoothing: subpixel-antialiased;
+  width:270px;
+  float:left;
+  position:fixed;
+  bottom:50px;
+  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -210,12 +204,9 @@ footer {
   }
 
   header, section, footer {
-    position: static;
-    width: auto;
-    float: none;
-    height: auto; /* Reset height for mobile */
-    overflow-y: visible; /* Disable scrolling for mobile */
-    padding: 0;
+    float:none;
+    position:static;
+    width:auto;
   }
 
   header {

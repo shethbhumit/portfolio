@@ -51,6 +51,7 @@ This Python project explores sustainability metrics within supply chain data, of
 <br>
 
 ---
+
 ## Lean Six Sigma Green Belt Certification
 
 ### <ins>National Industries For The Blind</ins>: *"Does Mathew Effect Exist for NIB's NPAs ?"* <br>
@@ -70,7 +71,9 @@ Throughout the project, we collaborated closely with <i>NIB leadership</i>, <i>N
 <br>
 <center><img src="images/lss.png"/></center>
 <br>
+
 ---
+
 ## Deep Learning/ LLM 
 
 ### NewsPulse AI: User-frinedly News Research Tool
@@ -94,6 +97,7 @@ _Key Skills: LLM, LangChain, OpenAI_
 <br>
 <center><img src="images/NewsPulse.jpg"/></center>
 <br>
+
 ---
 
 ## Machine Learning

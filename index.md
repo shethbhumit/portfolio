@@ -55,7 +55,7 @@ This Python project explores sustainability metrics within supply chain data, of
 
 ### <ins>National Industries For The Blind</ins>: *"Does Mathew Effect Exist for NIB's NPAs ?"* <br>
 
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20PDF-red?logo=adobe-acrobat-reader)]([https://drive.google.com/file/d/1dC38g5Nu6LL-6oYzVxkShD5fyHusjAlL/view?usp=sharing](https://drive.google.com/file/d/1zS19Ui_P6ej4firtNUwpMHYCov5cqlDF/view?usp=sharing))
+[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20PDF-red?logo=adobe-acrobat-reader)](https://drive.google.com/file/d/1zS19Ui_P6ej4firtNUwpMHYCov5cqlDF/view?usp=sharing)
 
 
 _Key Skills: Data Analysis, Project Management, Problem Solving, Change Management, Communication, Team Leadership, Process Improvement, Customer Focus_

@@ -1,0 +1,25 @@
+.button-container {
+  margin: 20px 0;
+  text-align: center;
+}
+.button-container button {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.button-container button:hover {
+  background-color: #005bb5;
+}
+.content-section {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

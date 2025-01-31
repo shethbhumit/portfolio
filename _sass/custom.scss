@@ -1,25 +1,31 @@
 .button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
   margin: 20px 0;
-  text-align: center;
 }
+
 .button-container button {
   background-color: #0073e6;
   color: white;
-  padding: 10px 15px;
-  margin: 5px;
+  padding: 12px 18px;
   border: none;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: background 0.3s;
 }
+
 .button-container button:hover {
   background-color: #005bb5;
 }
+
 .content-section {
   background: white;
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
 }

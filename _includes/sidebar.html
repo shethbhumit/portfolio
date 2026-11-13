@@ -1,0 +1,25 @@
+<div class="sidebar">
+  <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+  {% if site.logo %}<img class="avatar" src="{{ site.logo | relative_url }}" alt="Photo of {{ site.title }}" />{% endif %}
+  <p class="tagline">{{ site.tagline }}</p>
+  <p class="contact">
+    {{ site.location }}<br>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+    {{ site.phone }}
+  </p>
+  <p class="links">
+    <a class="resume-btn" href="{{ site.resume | relative_url }}">Resume (PDF)</a><br>
+    <a href="{{ site.linkedin }}">LinkedIn</a> ·
+    <a href="{{ site.github }}">GitHub</a> ·
+    <a href="{{ site.tableau }}">Tableau</a> ·
+    <a href="{{ site.kaggle }}">Kaggle</a>
+  </p>
+  <nav class="toc">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#data-engineering">Data &amp; Analytics Engineering</a>
+    <a href="#ai">Working with AI</a>
+    <a href="#analytics-ml">Analytics &amp; ML</a>
+    <a href="#skills">Skills</a>
+  </nav>
+</div>

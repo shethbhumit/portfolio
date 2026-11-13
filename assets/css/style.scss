@@ -2,3 +2,106 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+// ---- Layout: wider content column so project cards fit side by side ----
+.wrapper { width: 1100px; }
+header   { width: 260px; }
+section  { width: 780px; }
+
+// ---- Sidebar ----
+.sidebar {
+  text-align: center;
+  h1 { margin-bottom: 12px; }
+  .avatar { width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 10px; }
+  .tagline { color: #1F4E79; font-weight: 700; margin-bottom: 12px; }
+  .contact { font-size: 13px; margin-bottom: 12px; }
+  .links { margin-bottom: 14px; }
+  .resume-btn {
+    display: inline-block; margin-bottom: 6px; padding: 6px 14px;
+    background: #1F4E79; color: #fff; border-radius: 6px; font-weight: 700;
+    &:hover, &:focus { background: #163a5c; color: #fff; }
+  }
+  .toc {
+    text-align: left; border-top: 1px solid #e5e5e5; padding-top: 10px; font-size: 13px;
+    a { display: block; padding: 2px 0; }
+  }
+}
+
+// ---- Content ----
+section h2 {
+  font-size: 22px; color: #1F4E79; border-bottom: 2px solid #1F4E79;
+  padding-bottom: 6px; margin: 34px 0 16px; scroll-margin-top: 20px;
+}
+section h2:first-child { margin-top: 0; }
+
+.lead { font-size: 15px; color: #333; }
+.open-to {
+  background: #eef4fa; border-left: 4px solid #1F4E79; padding: 10px 14px;
+  color: #1F4E79; font-weight: 700; border-radius: 4px;
+}
+
+.stats {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0 0 20px;
+  .stat { background: #f7f9fb; border: 1px solid #e3e8ee; border-radius: 8px; padding: 12px 8px; text-align: center; }
+  .num { display: block; font-size: 22px; font-weight: 700; color: #1F4E79; line-height: 1.2; }
+  .label { font-size: 12px; color: #666; }
+}
+
+.job { margin-bottom: 18px; }
+.job-head { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 12px; }
+.job-head strong { font-size: 15px; }
+.job-head .dates { color: #666; font-size: 13px; white-space: nowrap; }
+.job .org { font-style: italic; color: #555; margin-bottom: 6px; }
+.job ul { margin: 6px 0 0; padding-left: 18px; }
+.job li { margin-bottom: 4px; }
+
+.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-bottom: 20px; }
+.card {
+  border: 1px solid #e3e8ee; border-radius: 10px; padding: 16px; background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); display: flex; flex-direction: column;
+  h3 { font-size: 16px; margin: 0 0 6px; }
+  p { margin: 0 0 10px; }
+  .meta { font-size: 12px; color: #888; margin-bottom: 8px; }
+  .thumb {
+    width: 100%; height: 170px; object-fit: contain; background: #f7f9fb;
+    border-radius: 6px; margin-bottom: 12px; border: 1px solid #eef1f4;
+  }
+  .flow {
+    font-family: Menlo, Consolas, monospace; font-size: 12px; background: #f4f7fa;
+    border-radius: 6px; padding: 8px 10px; color: #1F4E79; margin-bottom: 10px;
+  }
+  .actions { margin-top: auto; }
+}
+
+.tags { margin-bottom: 10px; }
+.tag {
+  display: inline-block; font-size: 11px; background: #eef4fa; color: #1F4E79;
+  border-radius: 10px; padding: 2px 8px; margin: 0 4px 4px 0;
+}
+
+.btn {
+  display: inline-block; font-size: 12px; padding: 4px 10px; border-radius: 6px;
+  border: 1px solid #1F4E79; color: #1F4E79; margin: 0 6px 4px 0;
+  &:hover, &:focus { background: #1F4E79; color: #fff; font-weight: 400; }
+}
+
+.skills { width: 100%; border-collapse: collapse; }
+.skills th { text-align: left; color: #222; width: 190px; vertical-align: top; padding: 6px 10px 6px 0; }
+.skills td { padding: 6px 0; border-bottom: 1px solid #f0f0f0; }
+
+.coursework li { margin-bottom: 4px; }
+
+.site-footer { text-align: center; color: #999; font-size: 12px; margin-top: 30px; }
+
+// ---- Responsive ----
+@media print, screen and (max-width: 1180px) {
+  .wrapper { width: auto; margin: 0; }
+  header, section { float: none; position: static; width: auto; }
+  header { padding-right: 0; margin-bottom: 20px; }
+  section { border-top: 1px solid #e5e5e5; padding-top: 20px; }
+  .sidebar .toc { display: none; }
+}
+@media screen and (max-width: 720px) {
+  .cards { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+}

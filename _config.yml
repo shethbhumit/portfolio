@@ -1,30 +1,16 @@
-title: <p align="center"> Bhumit Sheth </p>
-
+title: Bhumit Sheth
+description: Analytics engineer building trusted data foundations — datamarts, master tables, and tested pipelines for humans and AI.
+tagline: Analytics Engineer · Data Engineering & Analytics
 logo: "/images/picture.jpg"
 
-description:
-  <p align="center">
-  Phoenix, USA
-  <br> +1 (623) 212-3389
-  <br> contact.bhumit@gmail.com
-  <br> <a href="pdf/Resume_Bhumit_Sheth_May_2024_v7.pdf">Resume</a> |
-  <a href="https://www.linkedin.com/in/bhumitsheth/">LinkedIn</a> |
-  <a href="https://github.com/shethbhumit">GitHub</a>
-  <br> <a href="https://www.kaggle.com/boomitsheth">Kaggle</a> |
-  <a href="https://public.tableau.com/app/profile/bhumit.sheth/vizzes">Tableau</a>
-  </p>
-  
-  <p align="justify">
-  I am a <b>Business Analyst</b> who enjoys connecting the dots by the use of technology.
-  <br>
-  I have graduated with a <b>Master's Degree in Business Analytics at W. P. Carey School of Business, Arizona State University</b>, where I received solid training in all the major fields of Data Science, Supply Chain, Marketing and Finance .
-  <br>
-  I have a hard science education, having achieved a <b>Bachelor's Degree in Petroleum Engineering from IIT (ISM) Dhanbad, India </b>.
-  <br>
-  I consider myself a kind, empathetic, creative and determined person. I am pragmatic and organized, yet flexible.
-  <br><br>
-  </p>
-  
+location: Phoenix, AZ · open to remote (US) or relocation
+phone: +1 (623) 212-3389
+email: contact.bhumit@gmail.com
+resume: "/pdf/Resume_Bhumit_Sheth.pdf"
+linkedin: https://www.linkedin.com/in/bhumitsheth/
+github: https://github.com/shethbhumit
+kaggle: https://www.kaggle.com/boomitsheth
+tableau: https://public.tableau.com/app/profile/bhumit.sheth/vizzes
+
 theme: jekyll-theme-minimal
 google_analytics: G-P230DC6WQ3
-

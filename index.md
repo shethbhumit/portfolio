@@ -1,240 +1,168 @@
-# Portfolio
 ---
-## Supply Chain Analytics 
-
-### <ins>Master's Capstone Project</ins>: *"Predicting Shipping Time/Transit Time to show ​ETA/ETD for shipments using Machine Learning models"* <br>
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/APL_Logistics)
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20PDF-red?logo=adobe-acrobat-reader)](https://drive.google.com/file/d/1dC38g5Nu6LL-6oYzVxkShD5fyHusjAlL/view?usp=sharing)
-
-
-_Key Skills: Python (Random Forest, Gradient Boosting, Neural Nets, Streamlit), Supply Chain, Data Analysis_
-
-<div style="text-align: justify">
-I am led a comprehensive <b>end-to-end project</b> along with 4 graduates, culminating in a Streamlit app to forecast ETA/ETD for ocean shipments, enhancing supply chain visibility.<br>
-Key achievements till now:
-<li> Analyzed data from 3 customers, covering <b>54k shipments</b> and <b>211 routes</b>.</li>
-<li> Enhanced the predictive model with static (e.g., holidays) and dynamic factors (e.g., port congestion, weather disruptions).</li>
-<li> Conducted EDA using Tableau, evaluating <b>23 carriers</b> across various routes.</li>
-<li> Developed a machine learning model (employing algorithms such as Random Forest, Gradient Boosting, MLR, and Neural Networks) with an <b>R2 score</b> of <b>0.78</b>, demonstrating high predictive accuracy.</li>
-<li> Successfully deployed a Streamlit application showcasing the model's capability to predict shipment times accurately, improving operational efficiency in logistics.</li>
-</div>
-<br>
-<center><img src="images/Picture 1.png"/></center>
-<br>
-
+layout: default
 ---
 
-### Sustainability Metrics: Offering Insights into Decision-Making Parameters
+<h2 id="about">About</h2>
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/Sustainability_Metrics_in_Supply_Chain_with_Python-)
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20PDF-red?logo=adobe-acrobat-reader)]()
+<p class="lead">I build the layer between raw data and decisions. On the data engineering &amp; analytics team at a consumer fintech, I design <b>master tables and datamarts</b> that serve as a single source of truth, turn business metric definitions into <b>governed SQL</b>, and ship <b>tested Airflow pipelines through CI/CD</b>. I use Claude Code daily and design models and documentation that both analysts and AI agents can rely on.</p>
 
-_Key Skills: Python (Pandas, NumPy, Matplotlib, Seaborn)_
+<p>I came to data from petroleum engineering (IIT-ISM Dhanbad), where SQL, Python, and Tableau helped cut drilling costs by over $3M. I then earned an M.S. in Business Analytics at Arizona State University's W. P. Carey School of Business (GPA 4.0).</p>
 
-<div style="text-align: justify">
-This Python project explores sustainability metrics within supply chain data, offering insights into decision-making parameters.<br>
-<b>Key Features:</b><br>
-
-<li><b>Delivery Time and Late Delivery Rate:</b> Evaluates average days for shipping, scheduled shipment times, and late delivery rates to assess efficiency and customer satisfaction.</li>
-
-<li><b>Profitability and Efficiency:</b> Measures benefit per order, order profit per order, and order item profit ratio to gauge economic sustainability and profitability.</li>
-
-<li><b>Resource Utilization:</b> Identifies the customer segment generating the most sales and analyzes order item quantities for demand and inventory management.</li>
-
-<li><b>Shipping Modes:</b> Examines the distribution of orders across different shipping modes to identify opportunities for sustainable shipping options.</li>
-
-<li><b>Geographical Analysis:</b> Analyzes markets and regions where orders are delivered, helping optimize distribution and reduce transportation emissions.</li>
-
-<li><b>Order Status Analysis:</b> Measures the distribution of order statuses to identify trends related to order fulfillment and customer satisfaction.</li>
+<div class="stats">
+  <div class="stat"><span class="num">1,000+</span><span class="label">employees on the scorecard I built</span></div>
+  <div class="stat"><span class="num">50+</span><span class="label">KPIs governed in one data model</span></div>
+  <div class="stat"><span class="num">$3M+</span><span class="label">cost savings from analytics</span></div>
+  <div class="stat"><span class="num">5+ yrs</span><span class="label">working with data</span></div>
 </div>
-<br>
 
----
+<p class="open-to">Open to Analytics Engineering roles: remote (US) or relocation.</p>
 
-## Lean Six Sigma Green Belt Certification
+<h2 id="experience">Experience</h2>
 
-### <ins>National Industries For The Blind</ins>: *"Does Mathew Effect Exist for NIB's NPAs ?"* <br>
-
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20PDF-red?logo=adobe-acrobat-reader)](https://drive.google.com/file/d/1zS19Ui_P6ej4firtNUwpMHYCov5cqlDF/view?usp=sharing)
-
-
-_Key Skills: Data Analysis, Project Management, Problem Solving, Change Management, Communication, Team Leadership, Process Improvement, Customer Focus_
-
-<div style="text-align: justify">
-As the leader of a four-person team for a <b><i>Lean Six Sigma Green Belt</i></b> project at the <b><i>National Industries for the Blind (NIB)</i></b>, we embarked on a mission to investigate growth disparities among <b><i>Nonprofit Agencies (NPAs)</i></b>. Our project involved integrating and analyzing complex datasets, including sales and labor hours, to detect the presence of the Matthew Effect—where larger NPAs potentially outgrow smaller ones.
-
-We developed a <b><i>Composite Score</i></b> to measure NPA performance annually, utilizing statistical tools like <i>Welch t-tests</i> to evaluate growth rate differences. Our findings led to strategic recommendations aimed at promoting equitable growth and enhancing employment opportunities for the blind.
-
-Throughout the project, we collaborated closely with <i>NIB leadership</i>, <i>NPA managers</i>, and <i>advocacy groups</i>, aligning our outcomes with organizational goals. This experience not only influenced policy adjustments within NIB but also significantly enriched our team’s skills in data analysis, strategic planning, and stakeholder engagement. The project was a valuable lesson in the power of data-driven decision-making and its impact on operational and social equity.
+<div class="job">
+  <div class="job-head"><strong>Data Analyst II – Data Engineering &amp; Analytics</strong><span class="dates">Feb 2026 – Present</span></div>
+  <div class="org">Upgrade Inc. (consumer fintech: lending, cards &amp; banking) · Phoenix, AZ</div>
+  <ul>
+    <li>Designed <b>master tables</b> and a <b>datamart</b> for conversation, QA, and customer-satisfaction data on top of Data Engineering's source tables, with <b>incremental loads</b>, creating the single source of truth for contact-center metrics.</li>
+    <li>Built the <b>Contact Center Scorecard</b> for 1,000+ employees: DAGs turn 50+ KPIs into events, goals, and scores in <b>dim/fact tables</b>, with tests shipped through CI/CD. Reporting accuracy improved 20% and processing speed 70%.</li>
+    <li>Built a <b>Claude data plugin</b> (skills, agents, context) that lets 7 analysts self-serve metric definitions and analysis.</li>
+  </ul>
 </div>
-<br>
-<center><img src="images/lss.png"/></center>
-<br>
 
----
-
-## Deep Learning/ LLM 
-
-### NewsPulse AI: User-frinedly News Research Tool
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/NewsPulse-AI)
-[![Open PDF](https://img.shields.io/badge/PDF-Read%20Thesis%20PDF-red?logo=adobe-acrobat-reader)]()
-
-_Key Skills: LLM, LangChain, OpenAI_
-
-<div style="text-align: justify">
-<b>NewPulse AI</b> is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.<br>
-
-<b>Features:</b><br>
-
-<li>Load URLs or upload text files containing URLs to fetch article content.</li>
-<li>Process article content through <b>LangChain's UnstructuredURL Loader</b></li>
-<li>Construct an embedding vector using <b>OpenAI's embeddings</b> and leverage <b>FAISS</b>, a powerful similarity search library, to enable swift and effective retrieval of relevant information</li>
-<li>Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.</li>
-
+<div class="job">
+  <div class="job-head"><strong>Data Analyst I – Data Engineering &amp; Analytics</strong><span class="dates">Jul 2024 – Jan 2026</span></div>
+  <div class="org">Upgrade Inc. · Phoenix, AZ</div>
+  <ul>
+    <li>Built Python/SQL pipelines into <b>Redshift</b> feeding a unified <b>semantic layer</b> and dimensional models for Tableau self-service.</li>
+    <li>As the team's AI Champion, used Claude Code daily and built a <b>validation framework</b> (templates, guardrails, reconciliation tests) to keep metric logic consistent.</li>
+    <li>Automated recurring workflows with Python, SQL, and APIs, saving 60+ hours per month.</li>
+  </ul>
 </div>
-<br>
-<center><img src="images/NewsPulse.jpg"/></center>
-<br>
 
----
-
-## Machine Learning
-
-### Fraud Detection Using Predictive Analytics
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/Fraud-Detection-Using-Predictive-Analysis)
-[![Project Report](https://img.shields.io/badge/PDF-Read%20Report%20PDF-red?logo=adobe-acrobat-reader&logoColor=white)]()
-
-_Key Skills: Classification, Fraud Detection, Random Forest, OneHotEncoder, getdummies, labelencoder_
-
-<div style="text-align: justify">
-A large number of problems in data mining are related to fraud detection. Fraud is a common problem in auto insurance claims, health insurance claims, credit card transactions, financial transaction and so on. The data in this particular case comes from an actual auto insurance company. Each record represents an insurance claim. The last column in the table tells you whether the claim was fraudulent or not.<br>
-<b>Learnings :</b><br>
-<li><b>Dealing with categorical data:</b> OneHotEncoder, getdummies, labelencoder </li>
-<li>HyperParameter Tuning using GridSearch and RandomSearch Methods</li>
-<li>Building a Random Forest Classifier</li>
-<li><b>Model Evaluation :</b> More focus on False Negatives</li>
-
+<div class="job">
+  <div class="job-head"><strong>Drilling Engineer / Analyst</strong><span class="dates">Oct 2020 – Jul 2023</span></div>
+  <div class="org">Cairn Oil and Gas · India</div>
+  <ul>
+    <li>Used SQL and Python on operational data to build a predictive maintenance framework that <b>cut costs by over $3M</b>.</li>
+    <li>Built Tableau dashboards for asset-level KPIs that drove a <b>10% gain in operational efficiency</b>.</li>
+  </ul>
 </div>
-<br>
-<center><img src="images/ModelComparison_AutoInsurance.png"/></center>
-<br>
 
----
-### Santander Customer Satisfaction: A Kaggle Competition
+<h2 id="data-engineering">Data &amp; Analytics Engineering Projects</h2>
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/Santander-Customer-Satisfaction)
-[![Project Report](https://img.shields.io/badge/PDF-Read%20Report%20PDF-red?logo=adobe-acrobat-reader&logoColor=white)]()
+<div class="cards">
+  <div class="card">
+    <h3>Healthcare Medallion Pipeline</h3>
+    <div class="meta">Databricks · Delta Live Tables</div>
+    <div class="flow">CSV → bronze → silver (quality checks) → gold</div>
+    <p>A Databricks pipeline that ingests daily patient files incrementally with streaming tables, drops invalid rows with declarative data-quality expectations, and publishes gold aggregate tables for reporting.</p>
+    <div class="tags"><span class="tag">Databricks</span><span class="tag">Delta Lake</span><span class="tag">DLT</span><span class="tag">SQL</span><span class="tag">PySpark</span></div>
+    <div class="actions"><a class="btn" href="https://github.com/shethbhumit/data-engineering/tree/main/Delta-Live-Tables-Healthcare-Pipeline-main">GitHub</a></div>
+  </div>
 
-_Key Skills: Decision Tree Classification, Random Forest, Support Vector Machine, Naive Bayes, Logistic Regression_
+  <div class="card">
+    <h3>Trade KPI Analytics</h3>
+    <div class="meta">Snowflake · Dynamic Tables</div>
+    <div class="flow">raw trades → bronze → silver → gold KPIs</div>
+    <p>A medallion architecture on Snowflake Dynamic Tables with incremental refresh and scheduled tasks, publishing gold-layer trader, instrument, and strategy KPI tables.</p>
+    <div class="tags"><span class="tag">Snowflake</span><span class="tag">Dynamic Tables</span><span class="tag">SQL</span><span class="tag">Python</span></div>
+    <div class="actions"><a class="btn" href="https://github.com/shethbhumit/data-engineering/tree/main/RealTime-Trader-KPI-Analytics-main">GitHub</a></div>
+  </div>
 
-<div style="text-align: justify">
-From frontline support teams to C-suites, customer satisfaction is a key measure of success. Unhappy customers don't stick around. What's more, unhappy customers rarely voice their dissatisfaction before leaving.<br>
+  <div class="card">
+    <h3>Car Rental Warehouse (SCD2)</h3>
+    <div class="meta">Snowflake · Airflow · PySpark</div>
+    <div class="flow">daily files → MERGE (SCD2) → dims + fact</div>
+    <p>SCD2 dimension and fact tables with MERGE-based incremental upserts orchestrated in Airflow, surrogate keys for point-in-time history, and null/PK/FK data-quality checks.</p>
+    <div class="tags"><span class="tag">Snowflake</span><span class="tag">Airflow</span><span class="tag">SCD2</span><span class="tag">Dimensional modeling</span></div>
+    <div class="actions"><a class="btn" href="https://github.com/shethbhumit/data-engineering/tree/main/Snowflake-car-rental-pipeline-SCD2-main">GitHub</a></div>
+  </div>
 
-Santander Bank is asking Kagglers to help them identify dissatisfied customers early in their relationship. Doing so would allow Santander to take proactive steps to improve a customer's happiness before it's too late.<br>
-In this project, we work with hundreds of anonymized features to predict if a customer is satisfied or dissatisfied with their banking experience.<br>
-
-You are provided with an anonymized dataset containing a large number of numeric variables. The "TARGET" column is the variable to predict. It equals one for unsatisfied customers and 0 for satisfied customers.<br>
-The task is to predict the probability that each customer in the test set is an unsatisfied customer.<br>
-We implement a decision tree classifier model from the Scikit-learn library to predict the class. We will initially evaluate the default decision tree model and step by step explore differnent parameters of the decision tree classifier to improve the model.<br>
-<b>Learnings:</b> <br>
-<li>Building a Classification model using Decision Tree Classfier</li>
-<li>Manually tuning ML Models for better accuracy and ROC score</li>  
-<li>Model Evaulation using Accuracy, Precision, Recall and ROC curves</li> 
-
+  <div class="card">
+    <h3>News Data Pipeline</h3>
+    <div class="meta">Airflow · GCS · Snowflake</div>
+    <div class="flow">News API → Parquet → staging → marts</div>
+    <p>An Airflow-orchestrated pipeline that pulls news articles from an API, lands them as Parquet in cloud storage, and loads them through staging into Snowflake tables for analysis.</p>
+    <div class="tags"><span class="tag">Airflow</span><span class="tag">Snowflake</span><span class="tag">Python</span></div>
+    <div class="actions"><a class="btn" href="https://github.com/shethbhumit/data-engineering/tree/main/news-data-analysis-snowflake-pipeline-main">GitHub</a></div>
+  </div>
 </div>
-<br>
-<center><img src="images/ModelComparison_Santander.png"/></center>
-<br>
 
----
-### Homesite Quote Conversion
+<h2 id="ai">How I Work with AI</h2>
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/Homesite_Quote_Conversion)
-[![Project Report](https://img.shields.io/badge/PDF-Read%20Report%20PDF-red?logo=adobe-acrobat-reader&logoColor=white)]()
+<ul>
+  <li><b>AI-assisted development, validated.</b> I use Claude Code every day for SQL and Python, backed by a validation framework (prompt templates, guardrails, reconciliation tests, review checklists) so AI-written logic is checked before anyone relies on it.</li>
+  <li><b>Data built for humans and agents.</b> I built a Claude data plugin on our team's LLM-context repo, documenting models and metric definitions so analysts and AI agents get the same answers.</li>
+  <li><b>Retrieval-augmented apps.</b> NewsPulse AI (below) answers questions about financial news using LangChain, OpenAI embeddings, and FAISS, with source links for every answer.</li>
+</ul>
 
-_Key Skills: Classification, Linear SVC, Random Forest, KNN Classifier, MLP Classifier_
+<h2 id="analytics-ml">Analytics &amp; Machine Learning Projects</h2>
 
-<div style="text-align: justify">
-This dataset represents the <b>activity of a large number of customers</b> who are interested in buying policies from Homesite. Each QuoteNumber corresponds to a potential customer and the QuoteConversion_Flag indicates whether the customer purchased a policy. <br>
-The provided features are anonymized and provide a rich representation of the prospective customer and policy. They include specific coverage information, sales information, personal information, property information, and geographic information. Your task is to predict <b>QuoteConversion_Flag</b> for each QuoteNumber in the test set.
+<div class="cards">
+  <div class="card">
+    <img class="thumb" src="images/capstone-eta.png" alt="Shipment ETA prediction app" />
+    <h3>Shipment ETA/ETD Prediction (Master's Capstone)</h3>
+    <div class="meta">2024 · Supply chain · Team of five</div>
+    <p>Led an end-to-end project that forecasts ocean shipment arrival and departure times: 54k shipments, 211 routes, 23 carriers. The best model reached an R² of 0.78 and was deployed as a Streamlit app.</p>
+    <div class="tags"><span class="tag">Python</span><span class="tag">Random Forest</span><span class="tag">Gradient Boosting</span><span class="tag">Streamlit</span><span class="tag">Tableau</span></div>
+    <div class="actions">
+      <a class="btn" href="https://github.com/shethbhumit/APL_Logistics">GitHub</a>
+      <a class="btn" href="https://drive.google.com/file/d/1dC38g5Nu6LL-6oYzVxkShD5fyHusjAlL/view?usp=sharing">Thesis (PDF)</a>
+    </div>
+  </div>
 
+  <div class="card">
+    <img class="thumb" src="images/NewsPulse.jpg" alt="NewsPulse AI interface" />
+    <h3>NewsPulse AI</h3>
+    <div class="meta">LLM · Retrieval-augmented generation</div>
+    <p>A news research tool: paste article URLs, then ask questions about financial and stock-market news. Articles are embedded with OpenAI, retrieved with FAISS, and answered with source URLs.</p>
+    <div class="tags"><span class="tag">LangChain</span><span class="tag">OpenAI</span><span class="tag">FAISS</span><span class="tag">Python</span></div>
+    <div class="actions"><a class="btn" href="https://github.com/shethbhumit/NewsPulse-AI">GitHub</a></div>
+  </div>
+
+  <div class="card">
+    <img class="thumb" src="images/yelp.png" alt="Yelp review analysis" />
+    <h3>Arizona Restaurant Reviews (Yelp)</h3>
+    <div class="meta">NLP · Sentiment &amp; topic analysis</div>
+    <p>Analyzed Yelp reviews and ratings for Arizona restaurants with sentiment analysis, topic extraction, and regression/classification models to show how reviews relate to ratings over time.</p>
+    <div class="tags"><span class="tag">spaCy</span><span class="tag">NLTK</span><span class="tag">BERT</span><span class="tag">Python</span></div>
+    <div class="actions">
+      <a class="btn" href="https://github.com/shethbhumit/Yelp_Data_Analysis">GitHub</a>
+      <a class="btn" href="https://drive.google.com/file/d/1Hs4JOmm4zj-vfQKhzWDXTLmvURVLgkEl/view?usp=sharing">Slides (PDF)</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="thumb" src="images/airbnb-dashboard.png" alt="Amsterdam Airbnb Tableau dashboard" />
+    <h3>Amsterdam Airbnb Review Analytics</h3>
+    <div class="meta">SQL · Tableau</div>
+    <p>Used SQL on <a href="http://insideairbnb.com/get-the-data/">Inside Airbnb</a> data to find what top Amsterdam hosts earn and who would be likely customers for an Airbnb cleaning business, then built an interactive Tableau dashboard.</p>
+    <div class="tags"><span class="tag">SQL</span><span class="tag">Tableau</span></div>
+    <div class="actions">
+      <a class="btn" href="https://github.com/shethbhumit/airbnb_reviews_analytics">GitHub</a>
+      <a class="btn" href="https://public.tableau.com/app/profile/bhumit.sheth/viz/DashboardAmesterdamAirbnb/Dashboard1">Tableau</a>
+    </div>
+  </div>
 </div>
----
 
-## Natural Language Processing
+<h3>Earlier coursework</h3>
+<ul class="coursework">
+  <li><b>Auto insurance fraud detection</b>: Random Forest classifier tuned to reduce missed fraud cases. <a href="https://github.com/shethbhumit/Fraud-Detection-Using-Predictive-Analysis">GitHub</a></li>
+  <li><b>Santander customer satisfaction (Kaggle)</b>: predicting dissatisfied bank customers with tree-based models. <a href="https://github.com/shethbhumit/Santander-Customer-Satisfaction">GitHub</a></li>
+  <li><b>Homesite quote conversion</b>: comparing SVM, Random Forest, KNN, and MLP for policy purchase prediction. <a href="https://github.com/shethbhumit/Homesite_Quote_Conversion">GitHub</a></li>
+  <li><b>Supply chain sustainability metrics</b>: delivery, profitability, and shipping-mode analysis in Python. <a href="https://github.com/shethbhumit/Sustainability_Metrics_in_Supply_Chain_with_Python-">GitHub</a></li>
+  <li><b>Lean Six Sigma Green Belt (National Industries for the Blind)</b>: led a four-person team testing whether a "Matthew Effect" exists among nonprofit agencies. <a href="https://drive.google.com/file/d/1zS19Ui_P6ej4firtNUwpMHYCov5cqlDF/view?usp=sharing">Report (PDF)</a></li>
+  <li><b>Iowa Business Analytics Case Competition (Ball Corporation)</b>: organizational-health strategy on turnover, safety, and efficiency. <a href="https://github.com/shethbhumit/IOWA_Business_Analytics_Case_Competition">GitHub</a> · <a href="https://docs.google.com/presentation/d/1kJqHRn8OLLJSNaeNrKCGpJRib4ynSFSc/edit?usp=sharing&amp;ouid=102975432456670625356&amp;rtpof=true&amp;sd=true">Slides</a></li>
+</ul>
 
-### Analysis of Restaurant Reviews and Ratings in AZ using Yelp Data
+<h2 id="skills">Skills</h2>
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/Yelp_Data_Analysis)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://drive.google.com/file/d/1Hs4JOmm4zj-vfQKhzWDXTLmvURVLgkEl/view?usp=sharing)
+<table class="skills">
+  <tr><th>Modeling &amp; Transformation</th><td>SQL (CTEs, window functions), dimensional modeling (dim/fact, SCD2), medallion architecture, incremental loads (MERGE/upsert), data quality testing</td></tr>
+  <tr><th>Platforms &amp; Orchestration</th><td>Databricks (Delta Live Tables, Delta Lake), Snowflake (Dynamic Tables), Redshift, PostgreSQL, Apache Airflow</td></tr>
+  <tr><th>Engineering &amp; AI</th><td>Python, PySpark, Git/GitHub, CI/CD, Claude Code (daily), LangChain</td></tr>
+  <tr><th>BI &amp; Analytics</th><td>Tableau, semantic layers, Excel, A/B testing, time series (SARIMA), regression, scikit-learn</td></tr>
+  <tr><th>Currently learning</th><td>dbt (incremental models, tests, macros), Databricks semantic metrics</td></tr>
+</table>
 
-_Key Skills: Python (spaCy, NLTK, Bert), WordCloud_
-
-<div style="text-align: justify">
-The Yelp Dataset <b>“reviews.json”</b> and <b>“business.json”</b> has  reviews and ratings for all different kind of business present all around United States. For this analysis we will be focusing on restaurants businesses in our home state of Arizona. We want the restaurants of AZ to know how the ratings and review will affect their sales in a long term. 
-<b>Topic:</b> Focused on extracting meaningful patterns and trends from the business and review tables, targeting restaurants in Arizona.<br>
-<b>Objective:</b> Helped restaurants understand customer preferences using sentiment analysis, topic extraction, and ML models like regression and classification.
-</div>
-<br>
-<center><img src="images/yelp.png"/></center>
-<br>
-
----
-## Data Visualization
-
-### AIRBNB Review Analytics: Exploring Amsterdam's Hosting Landscape
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/airbnb_reviews_analytics)
-[![View on Tableau](https://img.shields.io/badge/Tableau-View_on_Tableau-orange?logo=Tableau)](https://public.tableau.com/app/profile/bhumit.sheth/viz/DashboardAmesterdamAirbnb/Dashboard1)
-
-_Key Skills: Tableau, Interactive Visualization, Data Analysis_
-
-<div style="text-align: justify">
-In our SQL project, "Airbnb Reviews Analytics," we embarked on a data-driven journey through the vibrant city of Amsterdam. Recognizing the challenges of web scraping, we harnessed the power of data from ![inside_airbnb](http://insideairbnb.com/get-the-data/) to gain unique insights into the Airbnb ecosystem.<br>
-Our focal point was Amsterdam, a city close to our hearts, and we delved into its rich dataset from a diverse pool of options.<br>
-
-<b>Business Problems Addressed</b><br>
-
-<b>Question 1: Unlocking Airbnb Success Stories</b><br>
-As a passionate enthusiast and key business stakeholder, our primary goal was to understand how Airbnb hosts were performing in Amsterdam. We sought answers to the question: "How much are the top Airbnb owners making in Amsterdam?" This insight provides a glimpse into the lucrative world of short-term rentals.<br>
-
-<b>Question 2: Catering to a Niche Market</b><br>
-With a long-standing desire to establish an Airbnb Cleaning Business, we embarked on a quest to identify potential customers. By dissecting the data, we aimed to answer the question: "Who comprises the potential customer list for our Airbnb Cleaning Business?" This critical knowledge forms the foundation for our future entrepreneurial endeavors.<br>
-Join us as we unveil the intriguing world of Amsterdam's Airbnb landscape, providing data-driven answers to these pressing questions and shedding light on opportunities for entrepreneurial success.
-</div>
-<br>
-<center><img src="images/Dashboard 1.png"/></center>
-<br>
-
----
-## People Analytics
-
-### IOWA Business Analytics Case Competition: Ball Corporation Organizational Health
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/shethbhumit/IOWA_Business_Analytics_Case_Competition)
-[![Open PDF](https://img.shields.io/badge/PDF-View%20Slides%20PDF-red?logo=adobe-acrobat-reader)](https://docs.google.com/presentation/d/1kJqHRn8OLLJSNaeNrKCGpJRib4ynSFSc/edit?usp=sharing&ouid=102975432456670625356&rtpof=true&sd=true)
-
-_Key Skills: Python, Streamlit, People Analytics_
-
-<div style="text-align: justify">
-In our presentation for <b>Ball Corporation</b>, my team and I, delivered a detailed <b>strategic blueprint</b> aimed at boosting the organization's health across several key areas. We started by identifying current challenges like <b>high turnover rates</b> and <b>inconsistent efficiency patterns</b>. We then proposed a holistic approach to manufacturing excellence that includes enhancing efficiency through lean manufacturing, improving safety through strict compliance with OSHA standards, elevating product quality via robust quality management systems, and developing a skilled workforce through continuous training. Our strategic recommendations leveraged innovative technologies such as smart automation and predictive maintenance to drive operational excellence.<br>
-We also highlighted workforce optimization strategies, like adopting a lifetime employment model and gamifying KPIs, to increase engagement and performance. Our phased implementation plan is designed to stabilize work expectations, enhance safety, and foster a culture of continuous learning, ultimately decreasing turnover and boosting operational efficiency. 
-</div>
-<br>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P230DC6WQ3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-P230DC6WQ3');
-</script>
-<center><img src="images/iowa.png"/></center>
-<br>
-
-<center>© 2024 Bhumit Sheth </center>
+<p class="site-footer">© {{ "now" | date: "%Y" }} Bhumit Sheth</p>
